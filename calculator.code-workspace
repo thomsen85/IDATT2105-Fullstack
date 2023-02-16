@@ -1,0 +1,24 @@
+{
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      "files.exclude": {
+        "/.git": true,
+        "/node_modules": true,
+        "/build": true,
+        "/coverage": true
+      },
+      "editor.formatOnSave": true,
+      "eslint.validate": ["html", "vue", "javascriptreact", "javascript", "typescript"],
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "nuxt.isNuxtApp": false
+    },
+    "extensions": {
+      "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+    }
+  }
