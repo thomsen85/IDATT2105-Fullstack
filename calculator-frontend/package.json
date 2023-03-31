@@ -14,7 +14,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "js-cookie": "^3.0.1",
     "pinia": "^2.0.28",
+    "pinia-plugin-persist": "^1.0.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
